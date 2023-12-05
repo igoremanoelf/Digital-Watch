@@ -1,19 +1,18 @@
-const hours = document.querySelector('#hours');
-const minutes = document.querySelector('#minutes');
-const seconds = document.querySelector('#seconds');
+const horas = document.querySelector('#horas');
+const minutos = document.querySelector('#minutos');
+const segundos = document.querySelector('#segundos');
 
-const watch = setInterval(function time() {
-  let dateToday = new Date();
-  let hr = dateToday.getHours();
-  let min = dateToday.getMinutes();
-  let sec = dateToday.getSeconds();
+const relogio = setInterval(function time() {
+  let datahoje = new Date();
+  let hora = datahoje.getHours();
+  let minuto = datahoje.getMinutes();
+  let segundo = datahoje.getSeconds();
 
-  if (hr < 10) hr = '0' + hr;
-  if (min < 10) min = '0' + min;
-  if (sec < 10) sec = '0' + sec;
+  if (hora < 10) hr = '0' + hora;
+  if (minuto < 10) min = '0' + minuto;
+  if (segundo < 10) sec = '0' + segundo;
 
-
-  hours.textContent = hr;
-  minutes.textContent = min;
-  seconds.textContent = sec;
+  horas.textContent = hora;
+  minutos.textContent = minuto;
+  segundos.textContent = segundo;
 })
