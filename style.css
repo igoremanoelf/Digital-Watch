@@ -14,7 +14,7 @@ body {
   justify-content: center;
 }
 
-.watch {
+.relogio {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -27,7 +27,7 @@ body {
   border: 1px solid rgba(253, 43, 43, 0.18);
 }
 
-.watch div {
+.relogio div {
   height: 180px;
   width: 150px;
   display: flex;
@@ -42,12 +42,12 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.18); 
 }
 
-.watch span {
+.relogio span {
   font-weight: bold;
   font-size: 70px;
 }
 
-.watch span.time {
+.relogio span.time {
   font-size: 15px;
 }
 
@@ -55,19 +55,19 @@ body {
   body {
     background-image: url('./assets/chihiro-media.jpg');
   }
-  .watch {
+  .relogio {
     height: 200px;
     width: 370px;
   }
-  .watch div {
+  .relogio div {
     height: 140px;
     width: 100px;
   }
-  .watch span {
+  .relogio span {
     font-size: 50px;
   }
   
-  .watch span.time {
+  .relogio span.time {
     font-size: 10px;
   }
 }
